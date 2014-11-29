@@ -10,13 +10,8 @@ repositories {
 
 dependencies {
     compile('com.alibaba:dubbo:2.4.10') {
-        exclude group: "org.springframework", module: "spring"
         exclude group: "org.jboss.netty", module: "netty"
     }
     compile 'io.netty:netty-all:4.1.0.Beta3'
-}
-
-
-dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
