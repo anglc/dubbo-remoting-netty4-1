@@ -6,12 +6,12 @@ dubbo-remoting-netty4
 
 *将dubbo-remoting-netty4-0.0.1.Beta.jar放到工程lib下<br>
 *配置provider<br>
-   ......
-   &lt;dubbo:protocol name="dubbo" port="21880" server="netty4"/> 
-   设置server为netty4
-   ......
+   ......<br>
+   &lt;dubbo:protocol name="dubbo" port="21880" server="netty4"/> <br>
+   设置server为netty4<br>
+   ......<br>
 *配置consumer<br>
-   ......
-   &lt;dubbo:reference id="demoService" client="netty4" interface="com.antrou.service.TestService" /> 
-   设置client为netty4
-   ......
+   ......<br>
+   &lt;dubbo:reference id="demoService" client="netty4" interface="com.antrou.service.TestService" /> <br>
+   设置client为netty4<br>
+   ......<br>
