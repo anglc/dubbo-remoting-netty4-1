@@ -1,8 +1,8 @@
 dubbo-remoting-netty4
 =====================
 
-升级dubbo的netty版本，到目前最新版本4.1.0.Beta3
-使用方法：
+升级dubbo的netty版本，到目前最新版本4.1.0.Beta3<br>
+使用方法：<br>
 
 1、将dubbo-remoting-netty4-0.0.1.Beta.jar放到工程lib下<br>
 2、配置provider<br>
